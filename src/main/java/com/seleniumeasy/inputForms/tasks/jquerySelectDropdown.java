@@ -1,7 +1,7 @@
-package com.seleniumeasy.tasks;
+package com.seleniumeasy.inputForms.tasks;
 
-import com.seleniumeasy.helpers.BaseSeleniumClass;
-import com.seleniumeasy.helpers.SeleniumHelper;
+import com.seleniumeasy.helpers.baseSeleniumClass;
+import com.seleniumeasy.helpers.seleniumHelper;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-public class jquerySelectDropdown extends BaseSeleniumClass {
+public class jquerySelectDropdown extends baseSeleniumClass {
 
     @FindBy(xpath = "//ul[@id='treemenu']//a[contains(text(),'Input Forms')]")
     private WebElement inputFormsMenu;
@@ -37,13 +37,13 @@ public class jquerySelectDropdown extends BaseSeleniumClass {
     @FindBy(xpath = "//select[@name='files'][@id='files']")
     private WebElement jqueryMultiSelectFile;
 
-    private SeleniumHelper helper;
+    private seleniumHelper helper;
 
     private WebDriver driver;
 
     public jquerySelectDropdown(WebDriver driver) {
         PageFactory.initElements(driver, this);
-        this.helper = new SeleniumHelper(driver);
+        this.helper = new seleniumHelper(driver);
         this.driver = driver;
     }
 

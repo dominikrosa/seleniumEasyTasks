@@ -1,7 +1,7 @@
-package com.seleniumeasy.tasks;
+package com.seleniumeasy.inputForms.tasks;
 
-import com.seleniumeasy.helpers.BaseSeleniumClass;
-import com.seleniumeasy.helpers.SeleniumHelper;
+import com.seleniumeasy.helpers.baseSeleniumClass;
+import com.seleniumeasy.helpers.seleniumHelper;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +11,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class selectDropdownList extends BaseSeleniumClass {
+public class selectDropdownList extends baseSeleniumClass {
 
     @FindBy(xpath = "//ul[@id='treemenu']//a[contains(text(),'Input Forms')]")
     private WebElement inputFormsMenu;
@@ -40,13 +40,13 @@ public class selectDropdownList extends BaseSeleniumClass {
     @FindBy(xpath = "//p[@class='getall-selected']")
     private WebElement multiSelectResult;
 
-    private SeleniumHelper helper;
+    private seleniumHelper helper;
 
     private WebDriver driver;
 
     public selectDropdownList(WebDriver driver) {
         PageFactory.initElements(driver, this);
-        this.helper = new SeleniumHelper(driver);
+        this.helper = new seleniumHelper(driver);
         this.driver = driver;
     }
 

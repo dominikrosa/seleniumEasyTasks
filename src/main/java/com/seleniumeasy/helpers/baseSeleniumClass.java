@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 
-public abstract class BaseSeleniumClass {
+public abstract class baseSeleniumClass {
     protected WebDriver driver;
 
     @BeforeTest

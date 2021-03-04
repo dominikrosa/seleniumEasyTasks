@@ -1,14 +1,14 @@
-package com.seleniumeasy.InputForms;
+package com.seleniumeasy.inputForms;
 
-import com.seleniumeasy.helpers.BaseSeleniumClass;
-import com.seleniumeasy.tasks.*;
+import com.seleniumeasy.inputForms.tasks.*;
+import com.seleniumeasy.helpers.baseSeleniumClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class InputFormsTest extends BaseSeleniumClass {
+public class inputFormsTest extends baseSeleniumClass {
     @Test
     public void testInputForms() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);
@@ -23,13 +23,13 @@ public class InputFormsTest extends BaseSeleniumClass {
                 .secondTest()
                 .inputMenu();
 
-       /* checkboxDemo checkboxDemo = new checkboxDemo(driver);
+        checkboxDemo checkboxDemo = new checkboxDemo(driver);
         checkboxDemo.checkboxDemostart()
                 .checkboxDemostart()
                 .checkboxFirstEx()
                 .checkboxSecondEx()
                 .inputMenu();
-*/
+
         radioButtonsDemo radioButtonsDemo = new radioButtonsDemo(driver)
                 .radioButtonsStart()
                 .radioButtonsEx1()

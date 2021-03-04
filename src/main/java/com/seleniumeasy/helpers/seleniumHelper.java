@@ -12,10 +12,10 @@ import java.time.Duration;
 import java.time.LocalTime;
 import java.util.List;
 
-public class SeleniumHelper {
+public class seleniumHelper {
     private WebDriver driver;
 
-    public SeleniumHelper(WebDriver driver){
+    public seleniumHelper(WebDriver driver){
         this.driver = driver;
     }
     public void waitForElementToBeDisplayed(By locator){

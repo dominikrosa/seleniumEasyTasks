@@ -1,4 +1,4 @@
-package com.seleniumeasy.DatePickers;
+package com.seleniumeasy.datePickers;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

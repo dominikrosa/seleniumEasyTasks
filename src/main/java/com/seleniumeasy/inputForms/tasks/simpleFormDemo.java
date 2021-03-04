@@ -1,14 +1,14 @@
-package com.seleniumeasy.tasks;
+package com.seleniumeasy.inputForms.tasks;
 
-import com.seleniumeasy.helpers.BaseSeleniumClass;
-import com.seleniumeasy.helpers.SeleniumHelper;
+import com.seleniumeasy.helpers.baseSeleniumClass;
+import com.seleniumeasy.helpers.seleniumHelper;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 
-public class simpleFormDemo extends BaseSeleniumClass {
+public class simpleFormDemo extends baseSeleniumClass {
 
 
     @FindBy(id = "btn_basic_example")
@@ -42,13 +42,13 @@ public class simpleFormDemo extends BaseSeleniumClass {
     private WebElement inputFormsMenu;
 
 
-    private SeleniumHelper helper;
+    private seleniumHelper helper;
 
     private WebDriver driver;
 
     public simpleFormDemo(WebDriver driver) {
         PageFactory.initElements(driver, this);
-        this.helper = new SeleniumHelper(driver);
+        this.helper = new seleniumHelper(driver);
         this.driver = driver;
         start.click();
 

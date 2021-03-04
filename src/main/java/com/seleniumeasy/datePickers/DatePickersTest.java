@@ -1,13 +1,13 @@
-package com.seleniumeasy.DatePickers;
+package com.seleniumeasy.datePickers;
 
-import com.seleniumeasy.helpers.BaseSeleniumClass;
+import com.seleniumeasy.helpers.baseSeleniumClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class DatePickersTest extends BaseSeleniumClass {
+public class DatePickersTest extends baseSeleniumClass {
     @Test
     public void testDatePickers(){
         driver.manage().timeouts().implicitlyWait(10L, TimeUnit.SECONDS);

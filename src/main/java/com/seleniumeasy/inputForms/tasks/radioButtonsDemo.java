@@ -1,14 +1,14 @@
-package com.seleniumeasy.tasks;
+package com.seleniumeasy.inputForms.tasks;
 
-import com.seleniumeasy.helpers.BaseSeleniumClass;
-import com.seleniumeasy.helpers.SeleniumHelper;
+import com.seleniumeasy.helpers.baseSeleniumClass;
+import com.seleniumeasy.helpers.seleniumHelper;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class radioButtonsDemo extends BaseSeleniumClass {
+public class radioButtonsDemo extends baseSeleniumClass {
 
     @FindBy(xpath = "//ul[@id='treemenu']//a[contains(text(),'Input Forms')]")
     private WebElement inputFormsMenu;
@@ -37,13 +37,13 @@ public class radioButtonsDemo extends BaseSeleniumClass {
     @FindBy(xpath = "//p[@class='groupradiobutton']")
     private WebElement chosenOptions;
 
-    private SeleniumHelper helper;
+    private seleniumHelper helper;
 
     private WebDriver driver;
 
     public radioButtonsDemo(WebDriver driver) {
         PageFactory.initElements(driver, this);
-        this.helper = new SeleniumHelper(driver);
+        this.helper = new seleniumHelper(driver);
         this.driver = driver;
     }
 
