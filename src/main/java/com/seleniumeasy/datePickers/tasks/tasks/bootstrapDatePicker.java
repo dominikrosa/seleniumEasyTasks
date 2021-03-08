@@ -1,6 +1,7 @@
-package com.seleniumeasy.datePickers.tasks;
+package com.seleniumeasy.datePickers.tasks.tasks;
 
 
+import com.seleniumeasy.helpers.baseSeleniumClass;
 import com.seleniumeasy.helpers.seleniumHelper;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;

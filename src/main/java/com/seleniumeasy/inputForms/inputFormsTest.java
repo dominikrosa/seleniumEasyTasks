@@ -23,13 +23,15 @@ public class inputFormsTest extends baseSeleniumClass {
                 .secondTest()
                 .inputMenu();
 
-        checkboxDemo checkboxDemo = new checkboxDemo(driver);
+        /*checkboxDemo checkboxDemo = new checkboxDemo(driver);
         checkboxDemo.checkboxDemostart()
                 .checkboxDemostart()
                 .checkboxFirstEx()
                 .checkboxSecondEx()
                 .inputMenu();
 
+
+         */
         radioButtonsDemo radioButtonsDemo = new radioButtonsDemo(driver)
                 .radioButtonsStart()
                 .radioButtonsEx1()

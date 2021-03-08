@@ -20,7 +20,7 @@ public class checkboxDemo extends baseSeleniumClass {
     @FindBy(xpath = "//li[@style='display: list-item;']//a[@href='./basic-checkbox-demo.html']")
     private WebElement checkboxDemo;
 
-    @FindBy(xpath = "//div[@class='checkbox']//input[@type='checkbox'][@id='isAgeSelected']")
+    @FindBy(xpath = "//div[@class='checkbox']//input[@id='isAgeSelected']")
     private WebElement checkboxFirstExample;
 
     @FindBy(xpath = "//div[@id='txtAge']")

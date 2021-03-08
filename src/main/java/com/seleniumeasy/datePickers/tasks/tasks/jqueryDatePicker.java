@@ -1,7 +1,9 @@
-package com.seleniumeasy.datePickers.tasks;
+package com.seleniumeasy.datePickers.tasks.tasks;
 
+import com.seleniumeasy.helpers.baseSeleniumClass;
 import com.seleniumeasy.helpers.seleniumHelper;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -58,8 +60,7 @@ public class jqueryDatePicker extends baseSeleniumClass {
 
         //to
 
-        to.click();
-        to.sendKeys("06/18/2021");
+        to.sendKeys("06/18/2021", Keys.ESCAPE);
 
         return this;
     }
