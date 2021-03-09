@@ -1,7 +1,7 @@
-package com.seleniumeasy.datePickers.tasks;
+package com.seleniumeasy.datePickers;
 
-import com.seleniumeasy.datePickers.tasks.tasks.bootstrapDatePicker;
-import com.seleniumeasy.datePickers.tasks.tasks.jqueryDatePicker;
+import com.seleniumeasy.datePickers.tasks.bootstrapDatePicker;
+import com.seleniumeasy.datePickers.tasks.jqueryDatePicker;
 import com.seleniumeasy.helpers.baseSeleniumClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -23,7 +23,8 @@ public class datePickerTest extends baseSeleniumClass {
                 .bootstrapDatePicker();
 
         jqueryDatePicker datePicker = new jqueryDatePicker(driver);
-        datePicker.jqueryDatePicker();
+        datePicker
+                .jqueryDatePicker();
 
 
 

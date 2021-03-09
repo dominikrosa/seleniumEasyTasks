@@ -1,4 +1,4 @@
-package com.seleniumeasy.datePickers.tasks.tasks;
+package com.seleniumeasy.datePickers.tasks;
 
 import com.seleniumeasy.helpers.baseSeleniumClass;
 import com.seleniumeasy.helpers.seleniumHelper;

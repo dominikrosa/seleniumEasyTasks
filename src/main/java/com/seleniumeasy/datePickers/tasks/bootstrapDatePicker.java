@@ -1,4 +1,4 @@
-package com.seleniumeasy.datePickers.tasks.tasks;
+package com.seleniumeasy.datePickers.tasks;
 
 
 import com.seleniumeasy.helpers.baseSeleniumClass;
@@ -15,8 +15,6 @@ import java.util.Date;
 
 public class bootstrapDatePicker extends baseSeleniumClass {
 
-    @FindBy(xpath = "//div[@class='col-md-3 sidenav']//ul[@id='treemenu']//a[@href='#'][contains(text(),'Date pickers')]")
-    private WebElement start;
 
     @FindBy(xpath = "//a[@href='./bootstrap-date-picker-demo.html']")
     private WebElement bootstrapDatePickerStart;
