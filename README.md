@@ -1,1 +1,1 @@
-# seleniumEasyTasks
+Go to the master branch.
