@@ -2,6 +2,7 @@ package com.seleniumeasy.table;
 
 import com.seleniumeasy.helpers.baseSeleniumClass;
 import com.seleniumeasy.table.tasks.tableDataSearch;
+import com.seleniumeasy.table.tasks.tableFilter;
 import com.seleniumeasy.table.tasks.tablePagination;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -28,7 +29,11 @@ public class tableTest extends baseSeleniumClass{
         tableDataSearch dataSearch = new tableDataSearch(driver);
         dataSearch
                 .tableDataSearch();
+
+
+        tableFilter filter = new tableFilter(driver);
+        filter
+                .tableFilter();
+
     }
-
-
 }
