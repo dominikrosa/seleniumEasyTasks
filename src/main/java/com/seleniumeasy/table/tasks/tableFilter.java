@@ -11,7 +11,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
-import java.util.Scanner;
 
 public class tableFilter extends baseSeleniumClass{
 
@@ -33,6 +32,9 @@ private WebElement all;
 
 
 
+
+
+
     private seleniumHelper helper;
 
     private WebDriver driver;
@@ -44,6 +46,7 @@ private WebElement all;
     }
 
     public tableFilter tableFilter() throws InterruptedException {
+        System.out.println("3. Table Filter");
 
         JavascriptExecutor executor = (JavascriptExecutor) driver;
         executor.executeScript("arguments[0].click()", tableFilterStart);
@@ -53,45 +56,37 @@ private WebElement all;
         List<WebElement> notChosenElements = driver.findElements(By.xpath("//table[@class='table table-filter']//tbody/tr[@style='display: none;']"));
         System.out.println("There are " + notChosenElements.size() + " not displayed elements");
 
-        Thread.sleep(1000);
+        Thread.sleep(300);
         actions.doubleClick(green).build().perform();
-        Thread.sleep(1000);
+        Thread.sleep(300);
         List<WebElement> notChosenElementsGreen = driver.findElements(By.xpath("//table[@class='table table-filter']//tbody/tr[@style='display: none;']"));
-        Thread.sleep(1000);
+        Thread.sleep(300);
         int greenElements = 5 - notChosenElementsGreen.size();
         System.out.println("There is/are " + greenElements + " green element(s).");
 
         Thread.sleep(300);
         actions.doubleClick(orange).build().perform();
-        Thread.sleep(1000);
+        Thread.sleep(300);
         List<WebElement> notChosenElementsOrange = driver.findElements(By.xpath("//table[@class='table table-filter']//tbody/tr[@style='display: none;']"));
-        Thread.sleep(1000);
+        Thread.sleep(300);
         int orangeElements = 5 - notChosenElementsOrange.size();
         System.out.println("There is/are " + orangeElements + " orange element(s).");
 
         Thread.sleep(300);
         actions.doubleClick(red).build().perform();
-        Thread.sleep(1000);
+        Thread.sleep(300);
         List<WebElement> notChosenElementsRed = driver.findElements(By.xpath("//table[@class='table table-filter']//tbody/tr[@style='display: none;']"));
-        Thread.sleep(1000);
+        Thread.sleep(300);
         int redElements = 5 - notChosenElementsRed.size();
         System.out.println("There is/are " + redElements + " red element(s).");
 
         Thread.sleep(300);
         actions.doubleClick(all).build().perform();
-        Thread.sleep(1000);
+        Thread.sleep(300);
         List<WebElement> notChosenElementsAll = driver.findElements(By.xpath("//table[@class='table table-filter']//tbody/tr[@style='display: none;']"));
-        Thread.sleep(1000);
+        Thread.sleep(300);
         int allElements = 5 - notChosenElementsAll.size();
         System.out.println("There is/are " + allElements + " all elements.");
-
-
-
-
-
-
-
-
 
 
         return this;

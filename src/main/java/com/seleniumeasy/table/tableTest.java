@@ -4,6 +4,7 @@ import com.seleniumeasy.helpers.baseSeleniumClass;
 import com.seleniumeasy.table.tasks.tableDataSearch;
 import com.seleniumeasy.table.tasks.tableFilter;
 import com.seleniumeasy.table.tasks.tablePagination;
+import com.seleniumeasy.table.tasks.tableSortSearch;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -34,6 +35,10 @@ public class tableTest extends baseSeleniumClass{
         tableFilter filter = new tableFilter(driver);
         filter
                 .tableFilter();
+
+
+        tableSortSearch sortSearch = new tableSortSearch(driver);
+        sortSearch.tableSortSearch();
 
     }
 }

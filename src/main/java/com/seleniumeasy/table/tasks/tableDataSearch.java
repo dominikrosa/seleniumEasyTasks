@@ -33,6 +33,7 @@ public class tableDataSearch extends baseSeleniumClass {
     }
 
     public tableDataSearch tableDataSearch() throws InterruptedException {
+        System.out.println("2. Table Data Search");
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
         javascriptExecutor.executeScript("arguments[0].click()", tableDataSearchStart);
 

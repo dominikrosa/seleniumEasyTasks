@@ -35,6 +35,7 @@ public class tablePagination extends baseSeleniumClass{
     }
 
     public tablePagination tablePagination(){
+        System.out.println("1. Table Pagination");
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
         javascriptExecutor.executeScript("arguments[0].click()",tableStart);
 
