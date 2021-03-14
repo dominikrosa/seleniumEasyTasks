@@ -12,7 +12,8 @@
 ##### Automated test controller manually selects or types date. Result - screenshot
 
 
-![datepicker (1)](https://user-images.githubusercontent.com/76004933/111061380-69882d80-84a3-11eb-9b79-5023ededfbf2.gif)
+![datepicker (2)](https://user-images.githubusercontent.com/76004933/111061489-f0d5a100-84a3-11eb-9d53-42af32787578.gif)
+
 
 
 
