@@ -25,6 +25,19 @@
 ![Table-1](https://user-images.githubusercontent.com/76004933/111062172-9dfde880-84a7-11eb-82c4-2fe7f28c671d.gif)
 
 
+### Input Forms
+* enter message and two numbers, check if your message is displayed and the sum of your numbers is correct **Result - is displayed/printed**
+* select sex and age group, check if values display correctly **Result - is displayed/printed**
+* select value from dropdown and multiselect list, check if values display correctly **Result - is displayed/printed**
+* fill in the form with random but fitting data, send form **Result - is displayed/printed**
+* fill in the form and wait for it to process **Result - is displayed/printed**
+* select values from drop down, multi select, drop down with category and disabled elements **Result - is displayed/printed**
 
+
+![input](https://user-images.githubusercontent.com/76004933/111069790-fd232380-84ce-11eb-859e-677cf3fe4bb1.gif)
+
+
+### Sources:
+seleniumeasy.com
 
 
