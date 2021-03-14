@@ -12,11 +12,8 @@
 ##### Automated test controller manually selects or types date. Result - screenshot
 
 
-<video poster="poster.jpg" width="618" height="347" controls preload> 
-    <source src="datepicker.webmhd.webm" media="only screen and (min-device-width: 568px)"></source> 
-    <source src="datepicker.iphone.mp4" media="only screen and (max-device-width: 568px)"></source> 
-    <source src="datepicker.webmhd.webm"></source> 
-</video>
+![datepicker (1)](https://user-images.githubusercontent.com/76004933/111061380-69882d80-84a3-11eb-9b79-5023ededfbf2.gif)
+
 
 
 
