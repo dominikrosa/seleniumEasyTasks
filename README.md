@@ -34,7 +34,8 @@
 * select values from drop down, multi select, drop down with category and disabled elements **Result - is displayed/printed**
 
 
-![input](https://user-images.githubusercontent.com/76004933/111069790-fd232380-84ce-11eb-859e-677cf3fe4bb1.gif)
+![input (1)](https://user-images.githubusercontent.com/76004933/111070203-cfd77500-84d0-11eb-8cde-30f566a5ae12.gif)
+
 
 
 ### Sources:
