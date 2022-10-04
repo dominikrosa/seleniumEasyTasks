@@ -1,5 +1,7 @@
 # Automation of seleniumeasy.com/test/
 
+### Code for the following tasks can be found in the Master branch.
+
 #### Technologies:
 * Selenium
 * Java
@@ -7,7 +9,7 @@
 * Maven
 * TestNG
 
-Code for the following tasks can be found in the Master branch.
+
 
 ### Date Picker
 * download current date, format it (start date), add 7 days (end date) **Result - printed**
